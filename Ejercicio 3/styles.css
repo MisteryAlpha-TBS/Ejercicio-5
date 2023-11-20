@@ -1,0 +1,57 @@
+.contenedor{
+	width: 600px;
+	height: 600px;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+
+.caja{
+	height: 100px;
+	width: 100px;
+}
+
+
+.caja1{
+	background-color: red;
+}
+
+.caja2{
+	background-color: blue;
+}
+
+.caja3{
+	background-color: green;
+}
+
+.caja4{
+	background-color: yellow;
+}
+
+.caja5{
+	background-color: orange;
+}
+
+@media(max-width:500px) and (min-width:400px){
+	.contenedor{
+		width: 400px;
+	}
+}
+
+@media(max-width:400px) and (min-width:300px){
+	.contenedor{
+		width: 300px;
+	}
+}
+
+@media(max-width:300px) and (min-width:200px){
+	.contenedor{
+		width: 200px;
+	}
+}
+
+@media(max-width:200px){
+	.contenedor{
+		width: 100px;
+	}
+}

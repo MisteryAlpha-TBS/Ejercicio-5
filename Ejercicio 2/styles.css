@@ -1,0 +1,51 @@
+.contenedor{
+	height: 1000px;
+	width: 1250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.contenedorA{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.caja1{
+	background-color: green;
+}
+
+.caja{
+	width: 200px;
+	height: 200px;
+}
+
+.caja2{
+	background-color: turquoise;
+}
+
+.caja3{
+	background-color: yellow;
+}
+
+.caja4{
+	background-color: purple;
+}
+
+.caja5{
+	background-color: pink;
+}
+
+.caja6{
+	background-color: blue;
+}
+
+.caja7{
+	background-color: orange;
+}
+
+.caja8{
+	background-color: red;
+}
+
